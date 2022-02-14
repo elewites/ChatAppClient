@@ -1,0 +1,53 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  border: 5px solid #007cc7;
+  border-radius: 7px;
+
+  height: 400px;
+  width: 250px;
+  background-color: #007cc7;
+}
+
+.welcome-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 210px;
+
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+
+  border: 2px solid #202020;
+  border-radius: 5px;
+  box-shadow: 3px 3px#202020;
+}
+
+.welcome-banner img {
+  height: 95%;
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .landing-container {
+    width: 500px;
+  }
+
+  .welcome-banner img {
+    height: 95%;
+  }
+}

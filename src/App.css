@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  height: 100vh;
+  background-color: #202020;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
