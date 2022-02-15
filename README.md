@@ -19,7 +19,7 @@ The app is deployed with Netlify and can be accessed here: [StudentCord](https:/
 
 1. I wanted to improve my skills using websockets and real time data sharing. 
 
-2. I wanted more exposure to the design process of involved in creating a full stack application. 
+2. I wanted more exposure to the design process involved in creating a full stack application. 
 - The project gave me valuable experience with backend-frontend architecture and how these two components communicate to each other.  
 
 2. I also wanted to explore using [Google OAuth2.0 library](https://developers.google.com/identity/protocols/oauth2) since it has become a very popular 
