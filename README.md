@@ -6,7 +6,7 @@ Once the user is registered, they are able to join their room of preference to c
 
 [Socket.io client](https://socket.io/docs/v4/client-api/) was used to create web sockets that allow the user to send real time data to the server and back. 
 
-I also developed the backend server which handles the sharing data throughout the chat rooms. You can check out the repo here [ChatAppServer](https://github.com/elewites/ChatAppServer). 
+I also developed the backend server which handles the sharing of data throughout the chat rooms. You can check out the repo here [ChatAppServer](https://github.com/elewites/ChatAppServer). 
 
 
 The app is deployed with Netlify and can be accessed here: [StudentCord](https://student-cord.netlify.app/).
