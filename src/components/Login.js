@@ -24,7 +24,7 @@ function Login() {
     const tokenId = response.tokenId;
     //post request to server with tokenId
     axios
-      .get("http://localhost:3001/users/login", {
+      .get("https://secure-temple-19164.herokuapp.com/users/login", {
         headers: { token: tokenId }
       })
       .then((response) => {

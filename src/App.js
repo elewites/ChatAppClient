@@ -45,7 +45,7 @@ function App() {
   //the google token stored in sesssion storage is valid.
   useEffect(() => {
     axios
-      .get("http://localhost:3001/users/auth", {
+      .get("https://secure-temple-19164.herokuapp.com/users/auth", {
         headers: {
           token: sessionStorage.getItem("token"),
         },
