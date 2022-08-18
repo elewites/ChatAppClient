@@ -12,9 +12,6 @@ I also developed the backend server which handles the sharing of data throughout
 The app is deployed with Netlify and can be accessed here: [StudentCord](https://student-cord.netlify.app/).
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9b56ce4a-00e8-407c-b862-181d3dc7ee53/deploy-status)](https://app.netlify.com/sites/crypt0-app/deploys)
-
-
 # Purpose
 
 1. I wanted to improve my skills using websockets and real time data sharing. 
