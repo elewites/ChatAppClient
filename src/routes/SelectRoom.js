@@ -33,7 +33,7 @@ function SelectRoom() {
   const [room, setRoom] = useState('Student Life');
 
   //server endpoint
-  const endpoint = "https://secure-temple-19164.herokuapp.com/";
+  const endpoint = "https://chat-app-server-0.herokuapp.com/";
   //socket variable is assigned a value
   //and on every re-render it connects to the given server endpoint 
   useEffect(() => {

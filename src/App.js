@@ -45,7 +45,7 @@ function App() {
   //the google token stored in sesssion storage is valid.
   useEffect(() => {
     axios
-      .get("https://secure-temple-19164.herokuapp.com/users/auth", {
+      .get("https://chat-app-server-0.herokuapp.com/users/auth", {
         headers: {
           token: sessionStorage.getItem("token"),
         },
@@ -54,7 +54,7 @@ function App() {
         if (response.data.error) {
           //if user is not authenticated, set authState loggedIn value to false
           setAuthState({ ...authState, loggedIn: false });
-          //alert("User not logged in");
+          alert("User not logged in");
         } else {
           //if user is authenticated, set authState loggeIn value to true and set user's data
           //console.log(response);

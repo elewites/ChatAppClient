@@ -24,7 +24,7 @@ function Login() {
     const tokenId = response.tokenId;
     //post request to server with tokenId
     axios
-      .get("https://secure-temple-19164.herokuapp.com/users/login", {
+      .get("https://chat-app-server-0.herokuapp.com/users/login", {
         headers: { token: tokenId }
       })
       .then((response) => {
