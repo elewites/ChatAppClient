@@ -54,7 +54,7 @@ function App() {
         if (response.data.error) {
           //if user is not authenticated, set authState loggedIn value to false
           setAuthState({ ...authState, loggedIn: false });
-          alert("User not logged in");
+         // alert("User not logged in");
         } else {
           //if user is authenticated, set authState loggeIn value to true and set user's data
           //console.log(response);
